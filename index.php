@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Landing Page Template</title>
+    <title>Dr Stefano Sereno</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <!--END STYLE SWITCHER-->
+
     <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -33,24 +33,25 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
 
-                    <li><a href="#developers">DEVELOPERS</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="mailto:info@domain.com?Subject=Product%20Enquiry" target="_top"> <i class="fa fa-envelope-o"></i><span class="home-mail">e-mail: info@domain.com</span></a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#benefit">Beneficios</a></li>
+                    <li><a href="#testimony">Testimonios</a></li>
+                    <li><a href="#question">Preguntas frecuentes</a></li>
+                    <li><a href="#contact">Contacto</li>
                 </ul>
             </div>
 
         </div>
     </div>
     <!--NAVBAR SECTION END-->
+
     <section class="header-sec" id="home">
         <div class="overlay">
             <div class="container">
-                <div class="row text-center">
-
+                <!-- <div class="row text-center">
                     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 
                         <h2 data-scroll-reveal="enter from the bottom after 0.1s">
@@ -64,39 +65,29 @@
                             Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
                         </p>
-
                         <br />
-
-
-
-
                     </div>
-
-                </div>
+                </div> -->
             </div>
         </div>
 
     </section>
     <!--HEADER SECTION END-->
-    <section class="features" id="features">
+
+    <section class="features" id="about">
         <div class="container">
             <div class="row text-center">
-
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            Awesome Features
+                            ¿Quién Soy?
                         </strong>
                     </h3>
-
                 </div>
-
             </div>
-            <div class="row ">
 
+            <div class="row ">
                 <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media">
                         <div class="pull-left">
@@ -183,11 +174,6 @@
                             <br />
                             <span class="pull-right"><strong>-Jimmy Kelly</strong></span>
                         </h4>
-
-
-
-
-
                     </div>
 
                 </div>
@@ -207,10 +193,6 @@
                             Our Developers
                         </strong>
                     </h3>
-
-
-
-
 
                 </div>
 
@@ -253,48 +235,27 @@
     </section>
     <!--DEVELOPERS SECTION END-->
     <section class="price-sec text-center " id="pricing">
-
-
-
         <div class="col-lg-6  col-md-6 col-sm-6 single-price" data-scroll-reveal="enter from the left after 0.2s">
-
             <span>199 <i class="fa fa-dollar"></i></span>
-
             <h1>SINGLE LICENSE</h1>
-
-
-
-
-
         </div>
         <div class="col-lg-6  col-md-6 col-sm-6 multi-price" data-scroll-reveal="enter from the right after 0.2s">
-
-
             <span>890 <i class="fa fa-dollar"></i></span>
             <h1>MULTIPLE LICENSE</h1>
-
-
-
-
         </div>
-
 
     </section>
     <!--PRICING SECTION END-->
     <section class="contact" id="contact">
         <div class="container">
             <div class="row text-center ">
-
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
                             Stay Connected
                         </strong>
                     </h3>
-
                 </div>
-
             </div>
 
             <div class="row">
@@ -306,31 +267,26 @@
                         USA - 002301
                         <br />
                         email: info@domain.com
-
                     </p>
-
-
-
                 </div>
+
                 <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
                     <strong>Just Small Text</strong>
                     <p>
                         Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
                     </p>
-
-
                 </div>
-
             </div>
-
         </div>
+
     </section>
     <!--CONTACT SECTION END-->
-    <div class="myfooter">
-        &copy; 2014 yourdomain.com | by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank">www.binarytheme.com</a>
 
+    <div class="myfooter">
+        <p class="footerText">Copyright &copy; 2023 Dr Stefano Sereno - Cirujano Bariatra en Guadalajara | Aviso de publicidad COFEPRIS: 2314102002A00180</p>
     </div>
     <!--FOOTER SECTION END-->
+
     <!--  Jquery Core Script -->
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!--  Core Bootstrap Script -->
@@ -343,7 +299,6 @@
     <script src="assets/js/styleSwitcher.js"></script>
     <!--  Custom Scripts -->
     <script src="assets/js/custom.js"></script>
-
 </body>
 
 </html>
