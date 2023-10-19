@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+
     <title>Dr Stefano Sereno</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./img/estetoscopio.png" />
+
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
@@ -89,66 +91,82 @@
 
             <div class="row ">
                 <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class=" fa fa-history fa-5x "></i>
-
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><strong> Responsive Layout </strong></h4>
-                            <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                            </p>
-
-                        </div>
+                    <div class="media-body">
+                        <h4>
+                            Soy el Dr. Stefano Sereno Trabaldo, médico cirujano especialista en cirugía bariátrica.
+                        </h4>
+                        <p>
+                            Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de Cirugía General,
+                            la cual demuestra mi compromiso en la atención médica y la práctica segura, para dar el mejor tratamiento
+                            a un paciente que quiere poner fin su problema de obesidad y las enfermedades relacionadas con ella.
+                        </p>
+                        <p>
+                            Soy Miembro del Colegio Mexicano de Cirugía de Obesidad, de la Asociación Mexicana de Cirugía General y
+                            Fellow del American College of Surgenos, todas ellas comunidades científicas con las que cotidianamente
+                            colaboro para mejorar el acceso y las prácticas seguras en cirugía bariátrica.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class=" fa fa-ra fa-5x "></i>
-
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><strong> Easy Customization </strong></h4>
-                            <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                            </p>
-
+                    <div class="media-body study-certification">
+                        <div class="card" style="width: 100%;">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Medicina</h5>
+                                        <p class="card-text">
+                                            Universidad Autónoma de Guadalajara. <br>
+                                            Mención honorífica. <br>
+                                            Cédula Profesional: 2413363
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Especialidad en Cirugía General</h5>
+                                        <p class="card-text">
+                                            Centro Médico Nacional de Occidente (IMSS). <br>
+                                            Cédula de Especialidad: 4255473.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Postgrado y Subespecialidad</h5>
+                                        <p class="card-text">
+                                            ● Cirugía Laparoscópica Avanzada. <br>
+                                            Hospital Central Militar. <br>
+                                            ● Cirugía de Obesidad. <br>
+                                            IRCAD Universidad Luis Pasteur, Francia
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Certificación</h5>
+                                        <p class="card-text">
+                                            Consejo Mexicano de Cirugía General
+                                            ● Cirugía Bariátrica No. B180055
+                                            ● Cirugía General No. 8029
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Miembro Activo</h5>
+                                        <p class="card-text">
+                                            ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades Metabólicas Relacionadas (CMCOEM)
+                                            ● International Federation for the Surgery of Obesity (IFSO)
+                                            ● Asociación Mexicana de Cirugía General (AMCG)
+                                            ● Fellow of the American College of Surgeons (FACS)
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
-            </div>
-            <div class="row text-center just-pad">
-
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <i class=" fa fa-database fa-5x "></i>
-                    <h4><strong> Easy Understanding </strong></h4>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.8s">
-                    <i class=" fa fa-send fa-5x "></i>
-                    <h4><strong> Awesomeness Loaded </strong></h4>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 1.4s">
-                    <i class=" fa fa-puzzle-piece fa-5x "></i>
-                    <h4><strong> Freely Available </strong></h4>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
             </div>
         </div>
 
