@@ -12,7 +12,7 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
- @font-face {
+@font-face {
   font-family: "FuturaStd-Medium";
   src: url(../fonts/Futura/FuturaStd-Medium.otf);
 }
@@ -22,7 +22,7 @@
   src: url(../fonts/Futura/FuturaStd-Bold.otf);
 }
 
- body {
+body {
   font-family: "FuturaStd-Medium";
   /* line-height: 30px; */
 }
@@ -38,8 +38,9 @@ h3 {
   padding-bottom: 40px;
   text-align: center;
   font-weight: 900;
+  font-size: 30px;
   text-transform: capitalize;
-  color: #22668D;
+  color: #22668d;
 }
 section {
   padding-top: 30px;
@@ -55,6 +56,33 @@ p {
   color: #000;
   text-align: justify;
 }
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.imageCard {
+  max-width: 80px;
+}
+
+.borderItemCard {
+  border-bottom: 3px solid #91c2e8;
+}
+
+.imgDr {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .imgDr {
+    width: 100%;
+    object-fit: cover;
+  }
+}
 /*=====================================
   NAVBAR STYLES 
     ===================================*/
@@ -63,7 +91,7 @@ p {
   max-height: 30px;
 }
 #menu {
-  background-color: #3085C3;
+  background-color: #3085c3;
   color: #64ccc5;
   font-size: 12px;
   font-weight: 900;
@@ -151,7 +179,7 @@ p {
   padding: 50px;
 }
 .multi-price {
-  background-color: #22668D;
+  background-color: #22668d;
   padding: 50px;
 }
 /*=====================================
@@ -166,9 +194,8 @@ p {
     ===================================*/
 
 .myfooter {
-  background-color: #8ECDDD;
+  background-color: #8ecddd;
   padding: 5px 40px 5px 40px;
-  
 }
 
 .footerText {
