@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Landing Page Template</title>
+
+    <title>Dr Stefano Sereno</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./img/estetoscopio.png" />
+
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-    <!--END STYLE SWITCHER-->
+
     <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -33,24 +35,25 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
 
-                    <li><a href="#developers">DEVELOPERS</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="mailto:info@domain.com?Subject=Product%20Enquiry" target="_top"> <i class="fa fa-envelope-o"></i><span class="home-mail">e-mail: info@domain.com</span></a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#benefit">Beneficios</a></li>
+                    <li><a href="#testimony">Testimonios</a></li>
+                    <li><a href="#question">Preguntas frecuentes</a></li>
+                    <li><a href="#contact">Contacto</li>
                 </ul>
             </div>
 
         </div>
     </div>
     <!--NAVBAR SECTION END-->
+
     <section class="header-sec" id="home">
         <div class="overlay">
             <div class="container">
-                <div class="row text-center">
-
+                <!-- <div class="row text-center">
                     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 
                         <h2 data-scroll-reveal="enter from the bottom after 0.1s">
@@ -64,100 +67,146 @@
                             Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
                         </p>
-
                         <br />
-
-
-
-
                     </div>
-
-                </div>
+                </div> -->
             </div>
         </div>
 
     </section>
     <!--HEADER SECTION END-->
-    <section class="features" id="features">
+
+    <section class="features" id="about">
         <div class="container">
             <div class="row text-center">
-
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            Awesome Features
+                            ¿Quién Soy?
                         </strong>
                     </h3>
-
                 </div>
-
             </div>
+
             <div class="row ">
-
-                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class=" fa fa-history fa-5x "></i>
-
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><strong> Responsive Layout </strong></h4>
-                            <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                            </p>
-
+                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s">
+                    <div class="media-body">
+                        <img src="img/aboutMe.jpg" alt="Dr. Stefano" class="imgDr">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
+                    <div class="media-body">
+                        <h4 style="font-size: 20px; text-align:justify;">
+                            Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía bariátrica.
+                        </h4>
+                        <p style="font-size: 17px;">
+                            Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de Cirugía General,
+                            la cual demuestra mi compromiso en la atención médica y la práctica segura, para dar el mejor tratamiento
+                            a un paciente que quiere poner fin su problema de obesidad y las enfermedades relacionadas con ella.
+                        </p>
+                        <p style="font-size: 17px;">
+                            Soy Miembro del Colegio Mexicano de Cirugía de Obesidad, de la Asociación Mexicana de Cirugía General y
+                            Fellow del American College of Surgenos, todas ellas comunidades científicas con las que cotidianamente
+                            colaboro para mejorar el acceso y las prácticas seguras en cirugía bariátrica.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.7s">
+                    <div class="media-body study-certification">
+                        <div class="card" style="width: 100%;">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item borderItemCard">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 studiesCard" style="text-align: center;">
+                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
+                                        </div>
+                                        <div class="col-md-8 studiesCard">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Medicina</h5>
+                                                <p class="card-text">
+                                                    Universidad Autónoma de Guadalajara. <br>
+                                                    Mención honorífica. <br>
+                                                    Cédula Profesional: 2413363
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item borderItemCard">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 studiesCard" style="text-align: center;">
+                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
+                                        </div>
+                                        <div class="col-md-8 studiesCard">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Especialidad en Cirugía General</h5>
+                                                <p class="card-text">
+                                                    Centro Médico Nacional de Occidente (IMSS). <br>
+                                                    Cédula de Especialidad: 4255473.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item borderItemCard">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 studiesCard" style="text-align: center;">
+                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
+                                        </div>
+                                        <div class="col-md-8 studiesCard">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Postgrado y Subespecialidad</h5>
+                                                <p class="card-text">
+                                                    ● Cirugía Laparoscópica Avanzada. <br>
+                                                    Hospital Central Militar. <br>
+                                                    ● Cirugía de Obesidad. <br>
+                                                    IRCAD Universidad Luis Pasteur, Francia
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item borderItemCard">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 studiesCard" style="text-align: center;">
+                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
+                                        </div>
+                                        <div class="col-md-8 studiesCard">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Certificación</h5>
+                                                <p class="card-text">
+                                                    Consejo Mexicano de Cirugía General. <br>
+                                                    ● Cirugía Bariátrica No. B180055. <br>
+                                                    ● Cirugía General No. 8029.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 studiesCard" style="text-align: center;">
+                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
+                                        </div>
+                                        <div class="col-md-8" style="padding-left: 0;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Miembro Activo</h5>
+                                                <p class="card-text">
+                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades Metabólicas Relacionadas (CMCOEM). <br>
+                                                    ● International Federation for the Surgery of Obesity (IFSO). <br>
+                                                    ● Asociación Mexicana de Cirugía General (AMCG). <br>
+                                                    ● Fellow of the American College of Surgeons (FACS).
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class=" fa fa-ra fa-5x "></i>
 
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><strong> Easy Customization </strong></h4>
-                            <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row text-center just-pad">
-
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <i class=" fa fa-database fa-5x "></i>
-                    <h4><strong> Easy Understanding </strong></h4>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.8s">
-                    <i class=" fa fa-send fa-5x "></i>
-                    <h4><strong> Awesomeness Loaded </strong></h4>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 1.4s">
-                    <i class=" fa fa-puzzle-piece fa-5x "></i>
-                    <h4><strong> Freely Available </strong></h4>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
             </div>
         </div>
 
@@ -183,11 +232,6 @@
                             <br />
                             <span class="pull-right"><strong>-Jimmy Kelly</strong></span>
                         </h4>
-
-
-
-
-
                     </div>
 
                 </div>
@@ -207,10 +251,6 @@
                             Our Developers
                         </strong>
                     </h3>
-
-
-
-
 
                 </div>
 
@@ -253,48 +293,27 @@
     </section>
     <!--DEVELOPERS SECTION END-->
     <section class="price-sec text-center " id="pricing">
-
-
-
         <div class="col-lg-6  col-md-6 col-sm-6 single-price" data-scroll-reveal="enter from the left after 0.2s">
-
             <span>199 <i class="fa fa-dollar"></i></span>
-
             <h1>SINGLE LICENSE</h1>
-
-
-
-
-
         </div>
         <div class="col-lg-6  col-md-6 col-sm-6 multi-price" data-scroll-reveal="enter from the right after 0.2s">
-
-
             <span>890 <i class="fa fa-dollar"></i></span>
             <h1>MULTIPLE LICENSE</h1>
-
-
-
-
         </div>
-
 
     </section>
     <!--PRICING SECTION END-->
     <section class="contact" id="contact">
         <div class="container">
             <div class="row text-center ">
-
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
                             Stay Connected
                         </strong>
                     </h3>
-
                 </div>
-
             </div>
 
             <div class="row">
@@ -306,31 +325,26 @@
                         USA - 002301
                         <br />
                         email: info@domain.com
-
                     </p>
-
-
-
                 </div>
+
                 <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
                     <strong>Just Small Text</strong>
                     <p>
                         Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
                     </p>
-
-
                 </div>
-
             </div>
-
         </div>
+
     </section>
     <!--CONTACT SECTION END-->
-    <div class="myfooter">
-        &copy; 2014 yourdomain.com | by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank">www.binarytheme.com</a>
 
+    <div class="myfooter">
+        <p class="footerText">Copyright &copy; 2023 Dr Stefano Sereno - Cirujano Bariatra en Guadalajara | Aviso de publicidad COFEPRIS: 2314102002A00180</p>
     </div>
     <!--FOOTER SECTION END-->
+
     <!--  Jquery Core Script -->
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!--  Core Bootstrap Script -->
@@ -343,7 +357,6 @@
     <script src="assets/js/styleSwitcher.js"></script>
     <!--  Custom Scripts -->
     <script src="assets/js/custom.js"></script>
-
 </body>
 
 </html>
