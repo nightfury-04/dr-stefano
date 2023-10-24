@@ -52,7 +52,7 @@ section {
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
   padding: 10px 0px;
   color: #000;
   text-align: justify;
@@ -80,7 +80,7 @@ li {
 }
 
 .imgService {
-  width: 50%;
+  width: 75%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -88,9 +88,10 @@ li {
     width: 100%;
     object-fit: cover;
   }
-  
+
   .imgService {
     margin-bottom: 2.5rem;
+    width: 50%;
   }
 }
 /*=====================================
@@ -104,9 +105,9 @@ li {
   background-color: #3085c3;
   color: #64ccc5;
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .navbar-inverse {
   border-color: transparent;
@@ -116,11 +117,11 @@ li {
   color: #fff;
 }
 
-.home-mail {
+/* .home-mail {
   font-size: 12px;
   font-weight: normal;
   padding-left: 5px;
-}
+} */
 /*=====================================
   HEADERS STYLES 
     ===================================*/
@@ -144,8 +145,8 @@ li {
 }
 
 /*=====================================
-  TESTIMONIALS STYLES 
-    ===================================*/
+  BENEFITS STYLES 
+  ===================================*/
 
 .benefit-sec {
   padding-top: 10px;
@@ -157,31 +158,31 @@ li {
   font-size: 17px;
 }
 .benefit-sec .overlay {
-  background: #E5EFF9;
+  background: #e5eff9;
   min-height: 380px;
 }
 
 /*=====================================
-  PRICING STYLES 
+  SERVICES STYLES 
     ===================================*/
 
-.price-sec {
-  padding-top: 40px;
-  padding-bottom: 60px;
-  color: #fff;
-}
-.price-sec span {
-  font-size: 90px;
+.services p {
+  color: #f2f8fd;
 }
 
-.single-price {
-  background-color: rgba(142, 205, 221, 1);
-  padding: 50px;
+.services li {
+  color: white;
 }
-.multi-price {
+
+.services-one-part {
+  background-color: rgba(142, 205, 221, 1);
+  padding: 40px;
+}
+.services-two-part {
   background-color: #22668d;
   padding: 50px;
 }
+
 /*=====================================
   CONTACT STYLES 
     ===================================*/
