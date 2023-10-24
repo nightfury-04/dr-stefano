@@ -13,17 +13,21 @@
    GENERAL STYLES
  ============================================================ */
 @font-face {
-    font-family: 'FuturaStd-Medium';
-    src: url(../fonts/Futura/FuturaStd-Medium.otf);
+    font-family: 'FuturaStd';
+    src: url(../fonts/Futura/FuturaStd-Medium.otf) format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'FuturaStd-Bold';
-    src: url(../fonts/Futura/FuturaStd-Bold.otf);
+    font-family: 'FuturaStd';
+    src: url(../fonts/Futura/FuturaStd-Bold.otf) format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 body {
-    font-family: 'FuturaStd-Medium';
+    font-family: 'FuturaStd';
     /* line-height: 30px; */
 }
 
@@ -53,15 +57,15 @@ section {
 }
 
 p {
-  font-size: 18px;
-  padding: 10px 0px;
-  color: #000;
-  text-align: justify;
+    font-size: 18px;
+    padding: 10px 0px;
+    color: #000;
+    text-align: justify;
 }
 
 li {
-  color: #000;
-  font-size: 17px;
+    color: #000;
+    font-size: 17px;
 }
 
 .card-title {
@@ -85,19 +89,19 @@ li {
 }
 
 .imgService {
-  width: 75%;
+    width: 75%;
 }
 
 @media only screen and (max-width: 480px) {
-  .imgDr {
-    width: 100%;
-    object-fit: cover;
-  }
+    .imgDr {
+        width: 100%;
+        object-fit: cover;
+    }
 
-  .imgService {
-    margin-bottom: 2.5rem;
-    width: 50%;
-  }
+    .imgService {
+        margin-bottom: 2.5rem;
+        width: 50%;
+    }
 }
 /*=====================================
   NAVBAR STYLES 
@@ -107,12 +111,12 @@ li {
     max-height: 30px;
 }
 #menu {
-  background-color: #3085c3;
-  color: #64ccc5;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: capitalize;
+    background-color: #3085c3;
+    color: #64ccc5;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
 .navbar-inverse {
     border-color: transparent;
@@ -154,14 +158,14 @@ li {
   ===================================*/
 
 .benefit-sec {
-  font-size: 17px;
+    font-size: 17px;
     padding-top: 10px;
     padding-bottom: 60px;
     padding: 0;
 }
 .benefit-sec .overlay {
-  background: #e5eff9;
-  min-height: 380px;
+    background: #e5eff9;
+    min-height: 380px;
 }
 
 /*=====================================
@@ -169,20 +173,20 @@ li {
     ===================================*/
 
 .services p {
-  color: #f2f8fd;
+    color: #f2f8fd;
 }
 
 .services li {
-  color: white;
+    color: white;
 }
 
 .services-one-part {
-  background-color: rgba(142, 205, 221, 1);
-  padding: 40px;
+    background-color: rgba(142, 205, 221, 1);
+    padding: 40px;
 }
 .services-two-part {
-  background-color: #22668d;
-  padding: 50px;
+    background-color: #22668d;
+    padding: 50px;
 }
 
 /*=====================================
