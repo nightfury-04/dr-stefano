@@ -42,6 +42,7 @@ h3 {
     text-transform: capitalize;
     color: #22668d;
 }
+
 section {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -134,31 +135,18 @@ p {
 }
 
 /*=====================================
-  TESTIMONIALS STYLES 
+  BENEFITS STYLES 
     ===================================*/
 
-.testi-sec {
+.benefit-sec {
+  font-size: 17px;
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/testi.jpg) no-repeat center center;
     padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
 }
-.testi-sec .overlay {
-    background: rgba(8, 134, 74, 0.8);
-    min-height: 300px;
-}
-.testi-sec h3 {
-    color: #fff;
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-
-.testi-sec h4 {
-    line-height: 35px;
+.benefit-sec .overlay {
+    background: #E5EFF9;
+    min-height: 370px;
 }
 
 /*=====================================

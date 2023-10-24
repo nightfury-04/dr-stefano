@@ -248,11 +248,8 @@
                             Preguntas frecuentes
                         </strong>
                     </h3>
-
                 </div>
-
             </div>
-
             <?php include './qa.php' ?>
         </div>
 
