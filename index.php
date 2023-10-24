@@ -33,14 +33,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt="" /></a>
+                <!-- <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt="" /></a> -->
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#about">Sobre mí</a></li>
                     <li><a href="#services">Servicios</a></li>
-                    <li><a href="#benefit">Beneficios</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
                     <li><a href="#testimony">Testimonios</a></li>
                     <li><a href="#question">Preguntas frecuentes</a></li>
                     <li><a href="#contact">Contacto</a></li>
@@ -60,7 +60,7 @@
     </section>
     <!--HEADER SECTION END-->
 
-    <section class="features" id="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
@@ -84,19 +84,14 @@
                             Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
                             bariátrica.
                         </h4>
-                        <p style="font-size: 17px;">
-                            Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de
-                            Cirugía General,
-                            la cual demuestra mi compromiso en la atención médica y la práctica segura, para dar el
-                            mejor tratamiento
-                            a un paciente que quiere poner fin su problema de obesidad y las enfermedades relacionadas
-                            con ella.
+                        <p>
+                            Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de Cirugía General,
+                            la cual demuestra mi compromiso en la atención médica y la práctica segura, para dar el mejor tratamiento
+                            a un paciente que quiere poner fin su problema de obesidad y las enfermedades relacionadas con ella.
                         </p>
-                        <p style="font-size: 17px;">
-                            Soy Miembro del Colegio Mexicano de Cirugía de Obesidad, de la Asociación Mexicana de
-                            Cirugía General y
-                            Fellow del American College of Surgenos, todas ellas comunidades científicas con las que
-                            cotidianamente
+                        <p>
+                            Soy Miembro del Colegio Mexicano de Cirugía de Obesidad, de la Asociación Mexicana de Cirugía General y
+                            Fellow del American College of Surgenos, todas ellas comunidades científicas con las que cotidianamente
                             colaboro para mejorar el acceso y las prácticas seguras en cirugía bariátrica.
                         </p>
                     </div>
@@ -108,8 +103,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -126,8 +120,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -143,8 +136,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -162,8 +154,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -180,8 +171,7 @@
                                 <li class="list-group-item">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8" style="padding-left: 0;">
                                             <div class="card-body">
@@ -201,14 +191,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
     </section>
     <!--ABOUT SECTION END-->
 
-    <section class="benefit-sec">
+    <section class="benefit-sec" id="benefits">
         <div class="overlay">
             <div class="container">
                 <div class="row">
@@ -237,6 +226,59 @@
     </section>
     <!--BENEFIT SECTION END-->
 
+    <section class="services" id="services">
+        <div class="row text-center">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                    <strong>
+                        Servicios
+                    </strong>
+                </h3>
+                <div class="col-lg-6  col-md-6 col-sm-6 services-one-part">
+                    <p>
+                        Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
+                        multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física entre otras.
+                    </p>
+
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
+                            <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
+                        </div>
+
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
+                            <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p>También atiendo y opero a pacientes con enfermedades como:</p>
+                            <ul>
+                                <li>Vesícula biliar.</li>
+                                <li>Enfermedad por reflujo gastroesofágico.</li>
+                                <li>Enfermedad por reflujo gastroesofágico.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
+                    <p style="color:white;">
+                        En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al 35.6 %
+                        de la población infantil, cifras que nos ubican como primer lugar a nivel mundial en obesidad infantil,
+                        y el segundo en adultos, superado solamente por los EE. UU.
+                    </p>
+                    <p style="color:white;">
+                        De acuerdo con proyecciones de la OCDE, las enfermedades relacionadas con el sobrepeso reducirán la esperanza
+                        de vida en México en más de 4 años durante los próximos 30 años.
+                    </p>
+                    <p style="color:white;">
+                        ¿Qué esperas para dar el primer paso y vencer a la obesidad?
+                    </p>
+                </div>
+
+    </section>
+    <!--SERVICES SECTION END-->
+
     <section class="developers" id="developers">
         <div class="container">
             <div class="row text-center">
@@ -252,21 +294,9 @@
             </div>
             <?php include './qa.php' ?>
         </div>
-
     </section>
-    <!--DEVELOPERS SECTION END-->
-    <section class="price-sec text-center " id="pricing">
-        <div class="col-lg-6  col-md-6 col-sm-6 single-price" data-scroll-reveal="enter from the left after 0.2s">
-            <span>199 <i class="fa fa-dollar"></i></span>
-            <h1>SINGLE LICENSE</h1>
-        </div>
-        <div class="col-lg-6  col-md-6 col-sm-6 multi-price" data-scroll-reveal="enter from the right after 0.2s">
-            <span>890 <i class="fa fa-dollar"></i></span>
-            <h1>MULTIPLE LICENSE</h1>
-        </div>
+    <!--QUESTIONS SECTION END-->
 
-    </section>
-    <!--PRICING SECTION END-->
     <section class="contact" id="contact">
         <div class="container">
             <div class="row text-center ">
