@@ -13,139 +13,152 @@
    GENERAL STYLES
  ============================================================ */
 @font-face {
-  font-family: "FuturaStd-Medium";
-  src: url(../fonts/Futura/FuturaStd-Medium.otf);
+    font-family: 'FuturaStd-Medium';
+    src: url(../fonts/Futura/FuturaStd-Medium.otf);
 }
 
 @font-face {
-  font-family: "FuturaStd-Bold";
-  src: url(../fonts/Futura/FuturaStd-Bold.otf);
+    font-family: 'FuturaStd-Bold';
+    src: url(../fonts/Futura/FuturaStd-Bold.otf);
 }
 
 body {
-  font-family: "FuturaStd-Medium";
-  /* line-height: 30px; */
+    font-family: 'FuturaStd-Medium';
+    /* line-height: 30px; */
 }
 
 h2 {
-  padding-top: 50px;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-  color: #000;
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #000;
 }
 h3 {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-weight: 900;
-  font-size: 30px;
-  text-transform: capitalize;
-  color: #22668d;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #22668d;
 }
 section {
-  padding-top: 30px;
-  padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 .just-pad {
-  padding-bottom: 50px;
-  padding-top: 80px;
+    padding-bottom: 50px;
+    padding-top: 80px;
 }
 
 p {
-  font-size: 17px;
-  padding: 10px 0px;
-  color: #000;
-  text-align: justify;
+    padding: 10px 0px;
+    color: #000;
+    text-align: justify;
 }
 
 .card-title {
-  font-size: 17px;
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 14px;
 }
 
 .imageCard {
-  max-width: 80px;
+    max-width: 80px;
 }
 
 .borderItemCard {
-  border-bottom: 3px solid #91c2e8;
+    border-bottom: 3px solid #91c2e8;
 }
 
 .imgDr {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 480px) {
-  .imgDr {
-    width: 100%;
-    object-fit: cover;
-  }
+    .imgDr {
+        width: 100%;
+        object-fit: cover;
+    }
 }
 /*=====================================
   NAVBAR STYLES 
     ===================================*/
 
 .logo-custom {
-  max-height: 30px;
+    max-height: 30px;
 }
 #menu {
-  background-color: #3085c3;
-  color: #64ccc5;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+    background-color: #3085c3;
+    color: #64ccc5;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 .navbar-inverse {
-  border-color: transparent;
+    border-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .home-mail {
-  font-size: 12px;
-  font-weight: normal;
-  padding-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 5px;
 }
 /*=====================================
   HEADERS STYLES 
     ===================================*/
 
 .header-sec {
-  padding-top: 10px;
-  padding-bottom: 60px;
-  background: url(../img/banner.jpg) no-repeat;
-  padding: 0;
-  -webkit-background-size: cover;
-  background-size: cover;
-  /* color: #fff; */
-  background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/banner.jpg) no-repeat;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
 }
 .header-sec .overlay {
-  min-height: 590px;
+    min-height: 500px;
 }
 .header-sec h2 {
-  color: #fff;
-  padding-top: 150px;
+    color: #fff;
+    padding-top: 150px;
 }
 
 /*=====================================
   TESTIMONIALS STYLES 
     ===================================*/
 
-.benefit-sec {
-  padding-top: 10px;
-  padding-bottom: 60px;
-  padding: 0;
-  -webkit-background-size: cover;
-  background-size: cover;
-  color: #fff;
-  font-size: 17px;
+.testi-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/testi.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
 }
-.benefit-sec .overlay {
-  background: #E5EFF9;
-  min-height: 380px;
+.testi-sec .overlay {
+    background: rgba(8, 134, 74, 0.8);
+    min-height: 300px;
+}
+.testi-sec h3 {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.testi-sec h4 {
+    line-height: 35px;
 }
 
 /*=====================================
@@ -153,41 +166,82 @@ p {
     ===================================*/
 
 .price-sec {
-  padding-top: 40px;
-  padding-bottom: 60px;
-  color: #fff;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #fff;
 }
 .price-sec span {
-  font-size: 90px;
+    font-size: 90px;
 }
 
 .single-price {
-  background-color: rgba(142, 205, 221, 1);
-  padding: 50px;
+    background-color: rgba(142, 205, 221, 1);
+    padding: 50px;
 }
 .multi-price {
-  background-color: #22668d;
-  padding: 50px;
+    background-color: #22668d;
+    padding: 50px;
 }
 /*=====================================
   CONTACT STYLES 
     ===================================*/
 .contact {
-  font-size: 20px;
-  line-height: 35px;
+    font-size: 20px;
+    line-height: 35px;
 }
 /*=====================================
   FOOTER STYLES 
     ===================================*/
 
 .myfooter {
-  background-color: #8ecddd;
-  padding: 5px 40px 5px 40px;
+    background-color: #8ecddd;
+    padding: 5px 40px 5px 40px;
 }
 
 .footerText {
-  color: #fff;
-  font-size: 14px;
-  text-align: right;
-  padding: 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    padding: 0;
+}
+
+.accordion-title {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.accordion-title a {
+    text-decoration: none;
+}
+
+a[aria-expanded='true'] {
+    color: white;
+    transition: all ease-in 150ms;
+}
+
+a[aria-expanded='true'] .fa-plus {
+    display: none;
+}
+
+a[aria-expanded='true'] .fa-minus {
+    display: unset;
+}
+
+a[aria-expanded='false'] .fa-plus {
+    display: unset;
+}
+
+a[aria-expanded='false'] .fa-minus {
+    display: none;
+}
+
+.accordion-title:has(a[aria-expanded='true']) {
+    background-color: #3085c380;
+    transition: all ease-in 150ms;
+}
+
+.accordion-body {
+    font-size: 18px;
+    padding: 10px;
 }

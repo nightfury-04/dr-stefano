@@ -19,6 +19,8 @@
     <link href="css/themes/green.css" id="mainCSS" rel="stylesheet" />
     <!-- Google	Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -41,7 +43,7 @@
                     <li><a href="#benefit">Beneficios</a></li>
                     <li><a href="#testimony">Testimonios</a></li>
                     <li><a href="#question">Preguntas frecuentes</a></li>
-                    <li><a href="#contact">Contacto</li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
 
@@ -79,16 +81,22 @@
                 <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
                         <h4 style="font-size: 20px; text-align:justify;">
-                            Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía bariátrica.
+                            Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
+                            bariátrica.
                         </h4>
                         <p style="font-size: 17px;">
-                            Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de Cirugía General,
-                            la cual demuestra mi compromiso en la atención médica y la práctica segura, para dar el mejor tratamiento
-                            a un paciente que quiere poner fin su problema de obesidad y las enfermedades relacionadas con ella.
+                            Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de
+                            Cirugía General,
+                            la cual demuestra mi compromiso en la atención médica y la práctica segura, para dar el
+                            mejor tratamiento
+                            a un paciente que quiere poner fin su problema de obesidad y las enfermedades relacionadas
+                            con ella.
                         </p>
                         <p style="font-size: 17px;">
-                            Soy Miembro del Colegio Mexicano de Cirugía de Obesidad, de la Asociación Mexicana de Cirugía General y
-                            Fellow del American College of Surgenos, todas ellas comunidades científicas con las que cotidianamente
+                            Soy Miembro del Colegio Mexicano de Cirugía de Obesidad, de la Asociación Mexicana de
+                            Cirugía General y
+                            Fellow del American College of Surgenos, todas ellas comunidades científicas con las que
+                            cotidianamente
                             colaboro para mejorar el acceso y las prácticas seguras en cirugía bariátrica.
                         </p>
                     </div>
@@ -100,7 +108,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -117,7 +126,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -133,7 +143,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -151,7 +162,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -168,13 +180,15 @@
                                 <li class="list-group-item">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8" style="padding-left: 0;">
                                             <div class="card-body">
                                                 <h5 class="card-title">Miembro Activo</h5>
                                                 <p class="card-text">
-                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades Metabólicas Relacionadas (CMCOEM). <br>
+                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades
+                                                    Metabólicas Relacionadas (CMCOEM). <br>
                                                     ● International Federation for the Surgery of Obesity (IFSO). <br>
                                                     ● Asociación Mexicana de Cirugía General (AMCG). <br>
                                                     ● Fellow of the American College of Surgeons (FACS).
@@ -231,7 +245,7 @@
 
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            Our Developers
+                            Preguntas frecuentes
                         </strong>
                     </h3>
 
@@ -239,38 +253,7 @@
 
             </div>
 
-            <div class="row ">
-
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s">
-
-                    <img src="assets/img/1.jpg" class="img-circle img-responsive" alt="" />
-                    <h4><strong> Cheiu Linewasa </strong></h4>
-                    <i>Lead Designer</i>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <img src="assets/img/2.jpg" class="img-circle img-responsive" alt="" />
-                    <h4><strong>Aexano Teranxsa </strong></h4>
-                    <i>Serior Analyst</i>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s">
-                    <img src="assets/img/3.jpg" class="img-circle img-responsive" alt="" />
-                    <h4><strong> Zineesa Renaiqn </strong></h4>
-                    <i>Lead Developer</i>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-
-                </div>
-            </div>
+            <?php include './qa.php' ?>
         </div>
 
     </section>
@@ -324,7 +307,8 @@
     <!--CONTACT SECTION END-->
 
     <div class="myfooter">
-        <p class="footerText">Copyright &copy; 2023 Dr Stefano Sereno - Cirujano Bariatra en Guadalajara | Aviso de publicidad COFEPRIS: 2314102002A00180</p>
+        <p class="footerText">Copyright &copy; 2023 Dr Stefano Sereno - Cirujano Bariatra en Guadalajara | Aviso de
+            publicidad COFEPRIS: 2314102002A00180</p>
     </div>
     <!--FOOTER SECTION END-->
 
