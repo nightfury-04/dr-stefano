@@ -31,14 +31,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt="" /></a>
+                <!-- <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt="" /></a> -->
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#about">Sobre mí</a></li>
                     <li><a href="#services">Servicios</a></li>
-                    <li><a href="#benefit">Beneficios</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
                     <li><a href="#testimony">Testimonios</a></li>
                     <li><a href="#question">Preguntas frecuentes</a></li>
                     <li><a href="#contact">Contacto</li>
@@ -58,7 +58,7 @@
     </section>
     <!--HEADER SECTION END-->
 
-    <section class="features" id="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
@@ -187,7 +187,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -223,58 +222,48 @@
     </section>
     <!--BENEFIT SECTION END-->
 
-    <section class="developers" id="developers">
+    <section class="services" id="services">
         <div class="container">
             <div class="row text-center">
-
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            Our Developers
+                            Servicios
                         </strong>
                     </h3>
-
                 </div>
-
             </div>
 
-            <div class="row ">
+            <p>
+                Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
+                multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física entre otras.
+            </p>
 
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s">
-
-                    <img src="assets/img/1.jpg" class="img-circle img-responsive" alt="" />
-                    <h4><strong> Cheiu Linewasa </strong></h4>
-                    <i>Lead Designer</i>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-
+            <div class="row justify-content-between">
+                <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
+                    <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <img src="assets/img/2.jpg" class="img-circle img-responsive" alt="" />
-                    <h4><strong>Aexano Teranxsa </strong></h4>
-                    <i>Serior Analyst</i>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-
+                <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
+                    <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s">
-                    <img src="assets/img/3.jpg" class="img-circle img-responsive" alt="" />
-                    <h4><strong> Zineesa Renaiqn </strong></h4>
-                    <i>Lead Developer</i>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
+            </div>
 
+            <div class="row">
+                <div class="col-12">
+                    <p>También atiendo y opero a pacientes con enfermedades como:</p>
+                    <ul>
+                        <li>Vesícula biliar.</li>
+                        <li>Enfermedad por reflujo gastroesofágico.</li>
+                        <li>Enfermedad por reflujo gastroesofágico.</li>
+                    </ul>
                 </div>
             </div>
         </div>
 
     </section>
-    <!--DEVELOPERS SECTION END-->
+    <!--SERVICES SECTION END-->
+
     <section class="price-sec text-center " id="pricing">
         <div class="col-lg-6  col-md-6 col-sm-6 single-price" data-scroll-reveal="enter from the left after 0.2s">
             <span>199 <i class="fa fa-dollar"></i></span>
