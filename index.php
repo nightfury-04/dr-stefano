@@ -234,47 +234,49 @@
                         Servicios
                     </strong>
                 </h3>
-                <div class="col-lg-6  col-md-6 col-sm-6 services-one-part">
-                    <p>
-                        Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
-                        multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física entre otras.
-                    </p>
+            </div>
+        </div>
+        <div class="col-lg-6  col-md-6 col-sm-6 services-one-part">
+            <p>
+                Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
+                multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física entre otras.
+            </p>
 
-                    <div class="row justify-content-between">
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
-                            <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
-                        </div>
-
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
-                            <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12">
-                            <p>También atiendo y opero a pacientes con enfermedades como:</p>
-                            <ul>
-                                <li>Vesícula biliar.</li>
-                                <li>Enfermedad por reflujo gastroesofágico.</li>
-                                <li>Enfermedad por reflujo gastroesofágico.</li>
-                            </ul>
-                        </div>
-                    </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
+                    <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
                 </div>
-                <div class="col-lg-6  col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
-                    <p style="color:white;">
-                        En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al 35.6 %
-                        de la población infantil, cifras que nos ubican como primer lugar a nivel mundial en obesidad infantil,
-                        y el segundo en adultos, superado solamente por los EE. UU.
-                    </p>
-                    <p style="color:white;">
-                        De acuerdo con proyecciones de la OCDE, las enfermedades relacionadas con el sobrepeso reducirán la esperanza
-                        de vida en México en más de 4 años durante los próximos 30 años.
-                    </p>
-                    <p style="color:white;">
-                        ¿Qué esperas para dar el primer paso y vencer a la obesidad?
-                    </p>
+
+                <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
+                    <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p>También atiendo y opero a pacientes con enfermedades como:</p>
+                    <ul>
+                        <li>Vesícula biliar.</li>
+                        <li>Enfermedad por reflujo gastroesofágico.</li>
+                        <li>Enfermedad por reflujo gastroesofágico.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6  col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
+            <p style="color:white;">
+                En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al 35.6 %
+                de la población infantil, cifras que nos ubican como primer lugar a nivel mundial en obesidad infantil,
+                y el segundo en adultos, superado solamente por los EE. UU.
+            </p>
+            <p style="color:white;">
+                De acuerdo con proyecciones de la OCDE, las enfermedades relacionadas con el sobrepeso reducirán la esperanza
+                de vida en México en más de 4 años durante los próximos 30 años.
+            </p>
+            <p style="color:white;">
+                ¿Qué esperas para dar el primer paso y vencer a la obesidad?
+            </p>
+        </div>
 
     </section>
     <!--SERVICES SECTION END-->
