@@ -19,6 +19,8 @@
     <link href="css/themes/green.css" id="mainCSS" rel="stylesheet" />
     <!-- Google	Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -41,7 +43,7 @@
                     <li><a href="#benefits">Beneficios</a></li>
                     <li><a href="#testimony">Testimonios</a></li>
                     <li><a href="#question">Preguntas frecuentes</a></li>
-                    <li><a href="#contact">Contacto</li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
 
@@ -79,7 +81,8 @@
                 <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
                         <h4 style="font-size: 20px; text-align:justify;">
-                            Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía bariátrica.
+                            Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
+                            bariátrica.
                         </h4>
                         <p>
                             Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de Cirugía General,
@@ -174,7 +177,8 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">Miembro Activo</h5>
                                                 <p class="card-text">
-                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades Metabólicas Relacionadas (CMCOEM). <br>
+                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades
+                                                    Metabólicas Relacionadas (CMCOEM). <br>
                                                     ● International Federation for the Surgery of Obesity (IFSO). <br>
                                                     ● Asociación Mexicana de Cirugía General (AMCG). <br>
                                                     ● Fellow of the American College of Surgeons (FACS).
@@ -230,53 +234,68 @@
                         Servicios
                     </strong>
                 </h3>
-            </div>
-        </div>
+                <div class="col-lg-6  col-md-6 col-sm-6 services-one-part">
+                    <p>
+                        Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
+                        multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física entre otras.
+                    </p>
 
-        <div class="col-lg-6  col-md-6 col-sm-6 services-one-part">
-            <p>
-                Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
-                multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física entre otras.
-            </p>
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
+                            <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
+                        </div>
 
-            <div class="row justify-content-between">
-                <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
-                    <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
+                            <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p>También atiendo y opero a pacientes con enfermedades como:</p>
+                            <ul>
+                                <li>Vesícula biliar.</li>
+                                <li>Enfermedad por reflujo gastroesofágico.</li>
+                                <li>Enfermedad por reflujo gastroesofágico.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
+                <div class="col-lg-6  col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
+                    <p style="color:white;">
+                        En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al 35.6 %
+                        de la población infantil, cifras que nos ubican como primer lugar a nivel mundial en obesidad infantil,
+                        y el segundo en adultos, superado solamente por los EE. UU.
+                    </p>
+                    <p style="color:white;">
+                        De acuerdo con proyecciones de la OCDE, las enfermedades relacionadas con el sobrepeso reducirán la esperanza
+                        de vida en México en más de 4 años durante los próximos 30 años.
+                    </p>
+                    <p style="color:white;">
+                        ¿Qué esperas para dar el primer paso y vencer a la obesidad?
+                    </p>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <p>También atiendo y opero a pacientes con enfermedades como:</p>
-                    <ul>
-                        <li>Vesícula biliar.</li>
-                        <li>Enfermedad por reflujo gastroesofágico.</li>
-                        <li>Enfermedad por reflujo gastroesofágico.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6  col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
-            <p style="color:white;">
-                En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al 35.6 %
-                de la población infantil, cifras que nos ubican como primer lugar a nivel mundial en obesidad infantil,
-                y el segundo en adultos, superado solamente por los EE. UU.
-            </p>
-            <p style="color:white;">
-                De acuerdo con proyecciones de la OCDE, las enfermedades relacionadas con el sobrepeso reducirán la esperanza
-                de vida en México en más de 4 años durante los próximos 30 años.
-            </p>
-            <p style="color:white;">
-                ¿Qué esperas para dar el primer paso y vencer a la obesidad?
-            </p>
-        </div>
 
     </section>
     <!--SERVICES SECTION END-->
+
+    <section class="developers" id="developers">
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+                    <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                        <strong>
+                            Preguntas frecuentes
+                        </strong>
+                    </h3>
+                </div>
+            </div>
+            <?php include './qa.php' ?>
+        </div>
+    </section>
+    <!--QUESTIONS SECTION END-->
 
     <section class="contact" id="contact">
         <div class="container">
@@ -315,7 +334,8 @@
     <!--CONTACT SECTION END-->
 
     <div class="myfooter">
-        <p class="footerText">Copyright &copy; 2023 Dr Stefano Sereno - Cirujano Bariatra en Guadalajara | Aviso de publicidad COFEPRIS: 2314102002A00180</p>
+        <p class="footerText">Copyright &copy; 2023 Dr Stefano Sereno - Cirujano Bariatra en Guadalajara | Aviso de
+            publicidad COFEPRIS: 2314102002A00180</p>
     </div>
     <!--FOOTER SECTION END-->
 
