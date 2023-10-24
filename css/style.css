@@ -47,6 +47,15 @@ h3 {
     color: #22668d;
 }
 
+h4, h5 {
+    color: #57a3d9;
+}
+
+.about-subtitle {
+    font-size: 20px;
+    text-align:justify;
+}
+
 section {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -131,6 +140,7 @@ li {
   font-weight: normal;
   padding-left: 5px;
 } */
+
 /*=====================================
   HEADERS STYLES 
     ===================================*/
@@ -146,7 +156,7 @@ li {
     background-attachment: fixed;
 }
 .header-sec .overlay {
-    min-height: 500px;
+    min-height: 660px;
 }
 .header-sec h2 {
     color: #fff;
@@ -186,7 +196,7 @@ li {
 }
 .services-two-part {
     background-color: #22668d;
-    padding: 50px;
+    padding: 50px 50px 62px 50px;
 }
 
 /*=====================================

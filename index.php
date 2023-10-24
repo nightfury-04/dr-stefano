@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
-                        <h4 style="font-size: 20px; text-align:justify;">
+                        <h4 class="about-subtitle">
                             Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
                             bariátrica.
                         </h4>
@@ -107,8 +107,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -125,8 +124,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -142,8 +140,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -161,8 +158,7 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -179,8 +175,7 @@
                                 <li class="list-group-item">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
+                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
                                         </div>
                                         <div class="col-md-8" style="padding-left: 0;">
                                             <div class="card-body">
@@ -256,13 +251,11 @@
                     </p>
 
                     <div class="row justify-content-between">
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center"
-                            data-scroll-reveal="enter from the left after 0.2s">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
                             <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
                         </div>
 
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center"
-                            data-scroll-reveal="enter from the bottom after 0.4s">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
                             <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
                         </div>
                     </div>
@@ -278,8 +271,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part"
-                    data-scroll-reveal="enter from the right after 0.2s">
+                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
                     <p style="color:white;">
                         En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al
                         35.6 %
@@ -302,25 +294,7 @@
     </section>
     <!--SERVICES SECTION END-->
 
-    <section class="developers" id="question">
-        <div class="container">
-            <div class="row text-center">
-
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
-                    <h3 data-scroll-reveal="enter from the bottom after 0.1s">
-                        <strong>
-                            Preguntas frecuentes
-                        </strong>
-                    </h3>
-                </div>
-            </div>
-            <?php include './qa.php' ?>
-        </div>
-    </section>
-    <!--QUESTIONS SECTION END-->
-
-    <section class="developers" id="developers">
+    <section class="testimony" id="testimony">
         <div class="container">
             <div class="row text-center">
 
@@ -339,20 +313,27 @@
             <?php include './testimonials.php' ?>
         </div>
     </section>
+    <!--TESTIMONY SECTION END-->
 
-    <!--DEVELOPERS SECTION END-->
-    <section class="price-sec text-center " id="pricing">
-        <div class="col-lg-6  col-md-6 col-sm-6 single-price" data-scroll-reveal="enter from the left after 0.2s">
-            <span>199 <i class="fa fa-dollar"></i></span>
-            <h1>SINGLE LICENSE</h1>
-        </div>
-        <div class="col-lg-6  col-md-6 col-sm-6 multi-price" data-scroll-reveal="enter from the right after 0.2s">
-            <span>890 <i class="fa fa-dollar"></i></span>
-            <h1>MULTIPLE LICENSE</h1>
+    <section class="questions" id="question">
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+                    <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                        <strong>
+                            Preguntas frecuentes
+                        </strong>
+                    </h3>
+                </div>
+            </div>
+            <?php include './qa.php' ?>
         </div>
     </section>
+    <!--QUESTIONS SECTION END-->
 
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
         <div class="container">
             <div class="row text-center ">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
@@ -385,7 +366,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!--CONTACT SECTION END-->
 
     <div class="myfooter">
@@ -408,7 +389,7 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/carousel.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             var $carousel = $('.carousel');
             var $items = $('.carousel-item');
             var totalItems = $items.length;
@@ -436,11 +417,11 @@
             updateCarousel();
 
             // Handle window resize to update the carousel
-            $(window).resize(function () {
+            $(window).resize(function() {
                 updateCarousel();
             });
 
-            $('.next').click(function () {
+            $('.next').click(function() {
                 var itemsVisible = calculateItemsVisible();
                 if (currentPosition < totalItems - itemsVisible) {
                     currentPosition += 1;
@@ -450,7 +431,7 @@
                 $carousel.css('transform', 'translateX(' + -currentPosition * $items.outerWidth(true) + 'px)');
             });
 
-            $('.prev').click(function () {
+            $('.prev').click(function() {
                 var itemsVisible = calculateItemsVisible();
                 if (currentPosition > 0) {
                     currentPosition -= 1;
