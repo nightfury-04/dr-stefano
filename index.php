@@ -193,7 +193,7 @@
     </section>
     <!--ABOUT SECTION END-->
 
-    <section class="benefit-sec">
+    <section class="benefit-sec" id="benefits">
         <div class="overlay">
             <div class="container">
                 <div class="row">
