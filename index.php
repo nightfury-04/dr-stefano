@@ -37,7 +37,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#about">Sobre mí</a></li>
-
                     <li><a href="#services">Servicios</a></li>
                     <li><a href="#benefit">Beneficios</a></li>
                     <li><a href="#testimony">Testimonios</a></li>
@@ -53,24 +52,6 @@
     <section class="header-sec" id="home">
         <div class="overlay">
             <div class="container">
-                <!-- <div class="row text-center">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
-                        <h2 data-scroll-reveal="enter from the bottom after 0.1s">
-                            <strong>
-                                Land Your Services in Style
-                            </strong>
-                        </h2>
-
-                        <p data-scroll-reveal="enter from the bottom after 0.8s">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <br />
-                    </div>
-                </div> -->
             </div>
         </div>
 
@@ -211,35 +192,37 @@
         </div>
 
     </section>
-    <!--FEATURES SECTION END-->
-    <section class="testi-sec">
+    <!--ABOUT SECTION END-->
+
+    <section class="benefit-sec">
         <div class="overlay">
             <div class="container">
-                <div class="row text-center">
-
+                <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-
-                        <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                        <h3 class="text-center" data-scroll-reveal="enter from the bottom after 0.1s">
                             <strong>
-                                What Our Clients Says
+                                Beneficios
                             </strong>
                         </h3>
-
-                        <h4 data-scroll-reveal="enter from the bottom after 0.8s">
-                            <i class="fa fa-quote-left "></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            <i class="fa fa-quote-right "></i>
-                            <br />
-                            <span class="pull-right"><strong>-Jimmy Kelly</strong></span>
-                        </h4>
+                        <p data-scroll-reveal="enter from the bottom after 0.8s">
+                            Al momento de realizarte una cirugía bariátrica, tu vida va a cambiar,
+                            ya que obtendrás los beneficios de vivir sin obesidad:
+                        </p>
+                        <ul style="color:black;">
+                            <li>Pérdida definitiva del exceso de peso.</li>
+                            <li>Resolución de diabetes.</li>
+                            <li>Resolución de la hipertensión y dislipidemia.</li>
+                            <li>La mejor oportunidad para adoptar hábitos de vida saludables.</li>
+                            <li>Mejoría en tu estado de ánimo, al tomar control de tu vida.</li>
+                            <li>Rápida recuperación postoperatoria.</li>
+                        </ul>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
-    <!--TESTIMONIAL SECTION END-->
+    <!--BENEFIT SECTION END-->
+
     <section class="developers" id="developers">
         <div class="container">
             <div class="row text-center">
