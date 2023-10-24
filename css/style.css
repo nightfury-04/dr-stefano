@@ -52,17 +52,14 @@ section {
 }
 
 p {
+  font-size: 17px;
   padding: 10px 0px;
   color: #000;
   text-align: justify;
 }
 
 .card-title {
-  font-size: 16px;
-}
-
-.card-text {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .imageCard {
@@ -122,11 +119,11 @@ p {
   padding: 0;
   -webkit-background-size: cover;
   background-size: cover;
-  color: #fff;
+  /* color: #fff; */
   background-attachment: fixed;
 }
 .header-sec .overlay {
-  min-height: 500px;
+  min-height: 590px;
 }
 .header-sec h2 {
   color: #fff;
@@ -137,28 +134,18 @@ p {
   TESTIMONIALS STYLES 
     ===================================*/
 
-.testi-sec {
+.benefit-sec {
   padding-top: 10px;
   padding-bottom: 60px;
-  background: url(../img/testi.jpg) no-repeat center center;
   padding: 0;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
-  background-attachment: fixed;
+  font-size: 17px;
 }
-.testi-sec .overlay {
-  background: rgba(8, 134, 74, 0.8);
-  min-height: 300px;
-}
-.testi-sec h3 {
-  color: #fff;
-  padding-top: 60px;
-  padding-bottom: 30px;
-}
-
-.testi-sec h4 {
-  line-height: 35px;
+.benefit-sec .overlay {
+  background: #E5EFF9;
+  min-height: 380px;
 }
 
 /*=====================================
