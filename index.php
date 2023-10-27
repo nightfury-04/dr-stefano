@@ -348,7 +348,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            CONTÁCTAME
+                            Contáctame
                         </strong>
                     </h3>
                 </div>
@@ -356,14 +356,14 @@
 
             <div class="row contact">
                 <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the left after 0.4s">
-                    <h5>DIRECCIÓN</h5>
+                    <h5>Dirección</h5>
                     <p>
                         C. Quebec #631,<br>Prados Providencia, C.P. 44670<br>Guadalajara, Jal.
                     </p>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the left after 0.4s">
-                    <h5>SIGUEME</h5>
+                    <h5>Sigueme</h5>
                     <div class="redes">
                         <a class="nav-link" href="https://www.facebook.com/drstefanosereno" target="_blank"><i
                                 class="fa fa-facebook-square"></i></a>
