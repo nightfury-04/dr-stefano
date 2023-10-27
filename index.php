@@ -13,6 +13,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CUSTOM STYLE CSS -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/carousel.css" rel="stylesheet" />
@@ -107,7 +108,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -124,7 +126,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -140,7 +143,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -158,7 +162,8 @@
                                 <li class="list-group-item borderItemCard">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8 studiesCard">
                                             <div class="card-body">
@@ -175,7 +180,8 @@
                                 <li class="list-group-item">
                                     <div class="row g-0">
                                         <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
+                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard"
+                                                alt="...">
                                         </div>
                                         <div class="col-md-8" style="padding-left: 0;">
                                             <div class="card-body">
@@ -251,11 +257,13 @@
                     </p>
 
                     <div class="row justify-content-between">
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center"
+                            data-scroll-reveal="enter from the left after 0.2s">
                             <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
                         </div>
 
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center"
+                            data-scroll-reveal="enter from the bottom after 0.4s">
                             <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
                         </div>
                     </div>
@@ -271,7 +279,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
+                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part"
+                    data-scroll-reveal="enter from the right after 0.2s">
                     <p style="color:white;">
                         En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al
                         35.6 %
@@ -333,21 +342,43 @@
     </section>
     <!--QUESTIONS SECTION END-->
 
-    <!-- <section class="contact" id="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row text-center ">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            Stay Connected
+                            CONTÁCTAME
                         </strong>
                     </h3>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.2s">
-                    <strong>ADDRESS :</strong>
+            <div class="row contact">
+                <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the left after 0.4s">
+                    <h5>DIRECCIÓN</h5>
+                    <p>
+                        C. Quebec #631,<br>Prados Providencia, C.P. 44670<br>Guadalajara, Jal.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the left after 0.4s">
+                    <h5>SIGUEME</h5>
+                    <div class="redes">
+                        <a class="nav-link" href="https://www.facebook.com/drstefanosereno" target="_blank"><i
+                                class="fa fa-facebook-square"></i></a>
+                        <a class="nav-link" href="https://www.instagram.com/drstefanosereno/" style="margin-left: 16px;"
+                            target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <!-- <div class="redes">
+                        <a href="mailto:ssereno@gmail.com"><span class="email"><i class="fa fa-envelope"
+                                    aria-hidden="true"></i><div>ssereno@gmail.com</div></span></a>
+                    </div> -->
+
+                </div>
+
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the right after 0.2s">
+                    <h5>ADDRESS :</h5>
                     <p>
                         2234/908, Newyork City ,
                         <br />
@@ -355,18 +386,17 @@
                         <br />
                         email: info@domain.com
                     </p>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
-                    <strong>Just Small Text</strong>
-                    <p>
-                        Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                    </p>
-                </div>
+                </div> -->
+            </div>
+            <div class="row">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.273881289898!2d-103.38975497218478!3d20.68796992153223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae423850e7dd%3A0xe88e0d6d418e0f31!2sC.%20Quebec%20631%2C%20Prados%20Providencia%2C%2044670%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1694120509690!5m2!1ses-419!2smx"
+                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
-    </section> -->
+    </section>
     <!--CONTACT SECTION END-->
 
     <div class="myfooter">
@@ -374,6 +404,11 @@
             publicidad COFEPRIS: 2314102002A00180</p>
     </div>
     <!--FOOTER SECTION END-->
+
+    <a href="https://wa.me/message/WAPMS4TQVKPWD1" target="_blank" class="floatingWA">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
 
     <!--  Jquery Core Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -389,7 +424,7 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/carousel.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             var $carousel = $('.carousel');
             var $items = $('.carousel-item');
             var totalItems = $items.length;
@@ -417,11 +452,11 @@
             updateCarousel();
 
             // Handle window resize to update the carousel
-            $(window).resize(function() {
+            $(window).resize(function () {
                 updateCarousel();
             });
 
-            $('.next').click(function() {
+            $('.next').click(function () {
                 var itemsVisible = calculateItemsVisible();
                 if (currentPosition < totalItems - itemsVisible) {
                     currentPosition += 1;
@@ -431,7 +466,7 @@
                 $carousel.css('transform', 'translateX(' + -currentPosition * $items.outerWidth(true) + 'px)');
             });
 
-            $('.prev').click(function() {
+            $('.prev').click(function () {
                 var itemsVisible = calculateItemsVisible();
                 if (currentPosition > 0) {
                     currentPosition -= 1;

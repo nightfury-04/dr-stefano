@@ -47,13 +47,14 @@ h3 {
     color: #22668d;
 }
 
-h4, h5 {
+h4,
+h5 {
     color: #57a3d9;
 }
 
 .about-subtitle {
     font-size: 20px;
-    text-align:justify;
+    text-align: justify;
 }
 
 section {
@@ -261,4 +262,39 @@ a[aria-expanded='false'] .fa-minus {
 .accordion-body {
     font-size: 18px;
     padding: 10px;
+}
+
+.floatingWA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    background-color: #61ce70;
+    color: white;
+    font-size: 32px;
+}
+
+.floatingWA i {
+    color: white;
+}
+
+.contact h5 {
+    font-size: 3rem;
+}
+
+.contact .redes i {
+    font-size: 4rem;
+    color: #000;
+}
+
+.contact .redes span i {
+    display: flex;
+    font-size: 4rem;
+    color: #000;
+    margin-right: 16px;
 }
