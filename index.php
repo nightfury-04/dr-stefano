@@ -72,17 +72,17 @@
             </div>
 
             <div class="row ">
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s">
+                <div class="col-lg-4 col-md-4 col-sm-4 md-hidden" data-scroll-reveal="enter from the left after 0.2s">
                     <div class="media-body">
                         <img src="img/aboutMe.jpg" alt="Dr. Stefano" class="imgDr">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
-                        <h4 style="font-size: 20px; text-align:justify;">
+                        <p>
                             Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
                             bariátrica.
-                        </h4>
+                        </p>
                         <p>
                             Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de
                             Cirugía General,
