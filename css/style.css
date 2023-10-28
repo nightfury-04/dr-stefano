@@ -78,44 +78,9 @@ li {
   font-size: 18px;
 }
 
-.card-title {
-  font-size: 16px;
-}
-
-.card-text {
-  font-size: 14px;
-}
-
-.imageCard {
-  max-width: 80px;
-}
-
-.borderItemCard {
-  border-bottom: 3px solid #91c2e8;
-}
-
-.imgDr {
-  max-width: 100%;
-}
-
-.imgService {
-  width: 75%;
-}
-
-@media only screen and (max-width: 480px) {
-  .imgDr {
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .imgService {
-    margin-bottom: 2.5rem;
-    width: 50%;
-  }
-}
 /*=====================================
   NAVBAR STYLES 
-    ===================================*/
+  ===================================*/
 
 .logo-custom {
   max-height: 30px;
@@ -136,15 +101,9 @@ li {
   color: #fff;
 }
 
-/* .home-mail {
-  font-size: 12px;
-  font-weight: normal;
-  padding-left: 5px;
-} */
-
 /*=====================================
   HEADERS STYLES 
-    ===================================*/
+  ===================================*/
 
 .header-sec {
   padding-top: 10px;
@@ -165,6 +124,39 @@ li {
 }
 
 /*=====================================
+  ABOUT STYLES 
+  ===================================*/
+.studies-certification {
+  background-color: #c5def2;
+  margin-top: 1rem;
+  padding: 1.5rem 0;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.imageCard {
+  max-width: 80px;
+}
+
+.borderItemRight {
+  border-right: 3px solid #91c2e8;
+}
+
+.borderItemLeft {
+  border-left: 3px solid #91c2e8;
+}
+
+.imgDr {
+  max-width: 100%;
+}
+
+/*=====================================
   BENEFITS STYLES 
   ===================================*/
 
@@ -181,7 +173,7 @@ li {
 
 /*=====================================
   SERVICES STYLES 
-    ===================================*/
+  ===================================*/
 
 .services p {
   color: #f2f8fd;
@@ -200,6 +192,10 @@ li {
   padding: 50px 50px 62px 50px;
 }
 
+.imgService {
+  width: 75%;
+}
+
 /*=====================================
   MODALITY STYLES
   ===================================*/
@@ -215,11 +211,11 @@ li {
 }
 
 .modality-sec .modality-info {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .officeImg {
-    width: 100%;
+  width: 100%;
 }
 
 /*=====================================
@@ -229,6 +225,7 @@ li {
   font-size: 20px;
   line-height: 35px;
 }
+
 /*=====================================
   FOOTER STYLES 
     ===================================*/
@@ -319,4 +316,39 @@ a[aria-expanded="false"] .fa-minus {
   font-size: 4rem;
   color: #000;
   margin-right: 16px;
+}
+
+/*=====================================
+  RESPONSIVE STYLES 
+  ===================================*/
+
+@media only screen and (max-width: 480px) {
+  .imgDr {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imgService {
+    margin-bottom: 2.5rem;
+    width: 50%;
+  }
+
+  .borderItemRight,
+  .borderItemLeft {
+    border-right: none;
+    border-left: none;
+  }
+
+  .borderItemLeft {
+    padding-top: 1rem;
+  }
+
+  .borderItemBottom {
+    border-bottom: 3px solid #91c2e8;
+    padding: 1rem 0;
+  }
+
+  .studies-certification {
+    margin-top: 0;
+  }
 }

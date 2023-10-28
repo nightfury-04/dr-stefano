@@ -74,7 +74,7 @@
                         <img src="img/aboutMe.jpg" alt="Dr. Stefano" class="imgDr">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
+                <div class="col-lg-8 col-md-8 col-sm-8" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
                         <h4 class="about-subtitle">
                             Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
@@ -97,98 +97,89 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.7s">
-                    <div class="media-body study-certification">
-                        <div class="card" style="width: 100%;">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Medicina</h5>
-                                                <p class="card-text">
-                                                    Universidad Autónoma de Guadalajara. <br>
-                                                    Mención honorífica. <br>
-                                                    Cédula Profesional: 2413363
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Especialidad en Cirugía General</h5>
-                                                <p class="card-text">
-                                                    Centro Médico Nacional de Occidente (IMSS). <br>
-                                                    Cédula de Especialidad: 4255473.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Postgrado y Subespecialidad</h5>
-                                                <p class="card-text">
-                                                    ● Cirugía Laparoscópica Avanzada. <br>
-                                                    Hospital Central Militar. <br>
-                                                    ● Cirugía de Obesidad. <br>
-                                                    IRCAD Universidad Luis Pasteur, Francia
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Certificación</h5>
-                                                <p class="card-text">
-                                                    Consejo Mexicano de Cirugía General. <br>
-                                                    ● Cirugía Bariátrica No. B180055. <br>
-                                                    ● Cirugía General No. 8029.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
-                                        </div>
-                                        <div class="col-md-8" style="padding-left: 0;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Miembro Activo</h5>
-                                                <p class="card-text">
-                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades
-                                                    Metabólicas Relacionadas (CMCOEM). <br>
-                                                    ● International Federation for the Surgery of Obesity (IFSO). <br>
-                                                    ● Asociación Mexicana de Cirugía General (AMCG). <br>
-                                                    ● Fellow of the American College of Surgeons (FACS).
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row studies-certification" data-scroll-reveal="enter from the right after 0.7s">
+                <div class="col-lg-4 borderItemRight borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Medicina</h5>
+                            <p class="card-text">
+                                Universidad Autónoma de Guadalajara. <br>
+                                Mención honorífica. <br>
+                                Cédula Profesional: 2413363
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 borderItemRight borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Especialidad en Cirugía General</h5>
+                            <p class="card-text">
+                                Centro Médico Nacional de Occidente (IMSS). <br>
+                                Cédula de Especialidad: 4255473.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Postgrado y Subespecialidad</h5>
+                            <p class="card-text">
+                                ● Cirugía Laparoscópica Avanzada. <br>
+                                Hospital Central Militar. <br>
+                                ● Cirugía de Obesidad. <br>
+                                IRCAD Universidad Luis Pasteur, Francia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row studies-certification">
+                <div class="col-lg-6 borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Certificación</h5>
+                            <p class="card-text">
+                                Consejo Mexicano de Cirugía General. <br>
+                                ● Cirugía Bariátrica No. B180055. <br>
+                                ● Cirugía General No. 8029.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 borderItemLeft">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8" style="padding-left: 0;">
+                        <div class="card-body">
+                            <h5 class="card-title">Miembro Activo</h5>
+                            <p class="card-text">
+                                ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades
+                                Metabólicas Relacionadas (CMCOEM). <br>
+                                ● International Federation for the Surgery of Obesity (IFSO). <br>
+                                ● Asociación Mexicana de Cirugía General (AMCG). <br>
+                                ● Fellow of the American College of Surgeons (FACS).
+                            </p>
                         </div>
                     </div>
                 </div>
