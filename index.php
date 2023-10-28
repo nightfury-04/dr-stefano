@@ -387,10 +387,20 @@
                         <a class="nav-link" href="https://www.facebook.com/drstefanosereno" target="_blank"><i class="fa fa-facebook-square"></i></a>
                         <a class="nav-link" href="https://www.instagram.com/drstefanosereno/" style="margin-left: 16px;" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
-                    <!-- <div class="redes">
-                        <a href="mailto:ssereno@gmail.com"><span class="email"><i class="fa fa-envelope"
-                                    aria-hidden="true"></i><div>ssereno@gmail.com</div></span></a>
-                    </div> -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-6">
+                        <a href="mailto:ssereno@gmail.com">
+                            <span class="email"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span style="color: black;">ssereno@gmail.com</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="https://wa.me/message/WAPMS4TQVKPWD1"><i class="fa fa-phone" style="color: #57a3d9;"></i>
+                            <span style="color: black;">331 260 0584</span>
+                        </a>
+                    </div>
 
                 </div>
 
