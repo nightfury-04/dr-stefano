@@ -168,7 +168,8 @@ li {
 }
 .benefit-sec .overlay {
   background: #e5eff9;
-  min-height: 380px;
+  /* min-height: 380px; */
+  padding: 50px 0;
 }
 
 /*=====================================
@@ -339,6 +340,26 @@ a[aria-expanded="false"] .fa-minus {
   margin-right: 16px;
 }
 
+ul.benefits-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.benefits-list li::before {
+    content: "\f058";
+    font-family: 'FontAwesome';
+    margin-right: 8px;
+    color: #22668d;
+}
+
+ul.benefits-list li {
+    margin-bottom: 8px;
+}
+
+.benefits-image {
+    width: 100%;
+}
+  
 /*=====================================
   RESPONSIVE STYLES 
   ===================================*/
@@ -372,6 +393,12 @@ a[aria-expanded="false"] .fa-minus {
   .studies-certification {
     margin-top: 0;
   }
+}
+
+@media only screen and (max-width: 992px) {
+    .benefits-image{
+        margin-bottom: 50px;
+    }
 }
 
 button.schedule {

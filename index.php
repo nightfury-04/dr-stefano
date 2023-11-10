@@ -198,8 +198,13 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <h3 class="text-center" data-scroll-reveal="enter from the bottom after 0.1s">
+                    <div class="col-md-4 col-sm-12">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img src="img/benefits.png" class="benefits-image" style="border-radius: 10px;">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-md-offset-1 col-sm-12">
+                        <h3 class="text-center" data-scroll-reveal="enter from the bottom after 0.1s" style="margin-top: 0; padding-top: 0;">
                             <strong>
                                 Beneficios
                             </strong>
@@ -208,7 +213,7 @@
                             Al momento de realizarte una cirugía bariátrica, tu vida va a cambiar,
                             ya que obtendrás los beneficios de vivir sin obesidad:
                         </p>
-                        <ul style="color:black;">
+                        <ul class="benefits-list" style="color:black;">
                             <li>Pérdida definitiva del exceso de peso.</li>
                             <li>Resolución de diabetes.</li>
                             <li>Resolución de la hipertensión y dislipidemia.</li>
