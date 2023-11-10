@@ -12,13 +12,10 @@
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CUSTOM STYLE CSS -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/carousel.css" rel="stylesheet" />
-    <!--GREEN STYLE VERSION IS BY DEFAULT, USE ANY ONE STYLESHEET FROM TWO STYLESHEETS (green or red) HERE-->
-    <link href="css/themes/green.css" id="mainCSS" rel="stylesheet" />
     <!-- Google	Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
 </head>
@@ -480,15 +477,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--  Core Bootstrap Script -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--  Scrolling Reveal Script -->
-    <script src="assets/js/scrollReveal.js"></script>
-    <!--  Scroll Scripts -->
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <!--  Style Switcher Scripts -->
-    <script src="assets/js/styleSwitcher.js"></script>
-    <!--  Custom Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/carousel.js"></script>
     <script>
         $(document).ready(function() {
             var $carousel = $('.carousel');
