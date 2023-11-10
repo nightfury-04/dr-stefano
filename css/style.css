@@ -274,6 +274,7 @@ li {
   font-size: 14px;
   text-align: right;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .accordion-title {
@@ -447,4 +448,18 @@ button.schedule {
     display: flex;
     align-items: center;
     height: 50px;
+}
+
+.aviso {
+  background-color: #8ecddd;
+  padding: 5px 40px;
+  color: white;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 992px) {
+  .aviso span {
+    display: block;
+    text-align: center;
+  }
 }

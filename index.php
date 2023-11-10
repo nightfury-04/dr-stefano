@@ -21,6 +21,9 @@
 </head>
 
 <body>
+    <div class="aviso">
+        <span>Aviso de publicidad COFEPRIS: 2314102002A00180</span>
+    </div>
     <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -47,7 +50,6 @@
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
     <!--NAVBAR SECTION END-->
