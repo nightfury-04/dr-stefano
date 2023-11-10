@@ -364,11 +364,6 @@
                         <img src="img/consultorio.jpg" alt="Consultorio médico" class="officeImg">
                     </div>
                 </div>
-                <div class="row text-center" style="margin-bottom: 2rem;">
-                    <a type="button" class="btn btn-lg" role="button" href="https://wa.me/message/WAPMS4TQVKPWD1" target="_blank" style="background-color: #216ba8; color: white;">
-                        Agendar Cita
-                    </a>
-                </div>
             </div>
         </div>
     </section>
