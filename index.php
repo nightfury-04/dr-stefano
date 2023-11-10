@@ -21,6 +21,9 @@
 </head>
 
 <body>
+    <div class="aviso">
+        <span>Aviso de publicidad COFEPRIS: 2314102002A00180</span>
+    </div>
     <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -47,7 +50,6 @@
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
     <!--NAVBAR SECTION END-->
@@ -89,17 +91,17 @@
             </div>
 
             <div class="row ">
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s">
+                <div class="col-lg-4 col-md-4 col-sm-4 md-hidden" data-scroll-reveal="enter from the left after 0.2s">
                     <div class="media-body">
                         <img src="img/aboutMe.png" alt="Dr. Stefano" class="imgDr">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-8" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
-                        <h4 class="about-subtitle">
+                        <p>
                             Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
                             bariátrica.
-                        </h4>
+                        </p>
                         <p>
                             Cuento con la certificación de “Cirujano Bariatra”, validado por el Consejo Mexicano de
                             Cirugía General,
