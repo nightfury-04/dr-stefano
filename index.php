@@ -57,11 +57,7 @@
     <!--NAVBAR SECTION END-->
 
     <section class="header-sec" id="home">
-        <div class="overlay">
-            <div class="container">
-            </div>
-        </div>
-
+        <div class="overlay"></div>
     </section>
     <!--HEADER SECTION END-->
 
@@ -83,7 +79,7 @@
                         <img src="img/aboutMe.jpg" alt="Dr. Stefano" class="imgDr">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.4s">
+                <div class="col-lg-8 col-md-8 col-sm-8" data-scroll-reveal="enter from the left after 0.4s">
                     <div class="media-body">
                         <h4 class="about-subtitle">
                             Soy el <b>Dr. Stefano Sereno Trabaldo</b>, médico cirujano especialista en cirugía
@@ -106,103 +102,89 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.7s">
-                    <div class="media-body study-certification">
-                        <div class="card" style="width: 100%;">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/doctor.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Medicina</h5>
-                                                <p class="card-text">
-                                                    Universidad Autónoma de Guadalajara. <br>
-                                                    Mención honorífica. <br>
-                                                    Cédula Profesional: 2413363
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/carpeta.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Especialidad en Cirugía General</h5>
-                                                <p class="card-text">
-                                                    Centro Médico Nacional de Occidente (IMSS). <br>
-                                                    Cédula de Especialidad: 4255473.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/folder.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Postgrado y Subespecialidad</h5>
-                                                <p class="card-text">
-                                                    ● Cirugía Laparoscópica Avanzada. <br>
-                                                    Hospital Central Militar. <br>
-                                                    ● Cirugía de Obesidad. <br>
-                                                    IRCAD Universidad Luis Pasteur, Francia
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item borderItemCard">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/medalla.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
-                                        </div>
-                                        <div class="col-md-8 studiesCard">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Certificación</h5>
-                                                <p class="card-text">
-                                                    Consejo Mexicano de Cirugía General. <br>
-                                                    ● Cirugía Bariátrica No. B180055. <br>
-                                                    ● Cirugía General No. 8029.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 studiesCard" style="text-align: center;">
-                                            <img src="img/comprobado.png" class="img-fluid rounded-start imageCard"
-                                                alt="...">
-                                        </div>
-                                        <div class="col-md-8" style="padding-left: 0;">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Miembro Activo</h5>
-                                                <p class="card-text">
-                                                    ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades
-                                                    Metabólicas Relacionadas (CMCOEM). <br>
-                                                    ● International Federation for the Surgery of Obesity (IFSO). <br>
-                                                    ● Asociación Mexicana de Cirugía General (AMCG). <br>
-                                                    ● Fellow of the American College of Surgeons (FACS).
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row studies-certification" data-scroll-reveal="enter from the right after 0.7s">
+                <div class="col-lg-4 borderItemRight borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/doctor.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Medicina</h5>
+                            <p class="card-text">
+                                Universidad Autónoma de Guadalajara. <br>
+                                Mención honorífica. <br>
+                                Cédula Profesional: 2413363
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 borderItemRight borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/carpeta.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Especialidad en Cirugía General</h5>
+                            <p class="card-text">
+                                Centro Médico Nacional de Occidente (IMSS). <br>
+                                Cédula de Especialidad: 4255473.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/folder.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Postgrado y Subespecialidad</h5>
+                            <p class="card-text">
+                                ● Cirugía Laparoscópica Avanzada. <br>
+                                Hospital Central Militar. <br>
+                                ● Cirugía de Obesidad. <br>
+                                IRCAD Universidad Luis Pasteur, Francia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row studies-certification">
+                <div class="col-lg-6 borderItemBottom">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/medalla.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8 studiesCard">
+                        <div class="card-body">
+                            <h5 class="card-title">Certificación</h5>
+                            <p class="card-text">
+                                Consejo Mexicano de Cirugía General. <br>
+                                ● Cirugía Bariátrica No. B180055. <br>
+                                ● Cirugía General No. 8029.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 borderItemLeft">
+                    <div class="col-md-4 studiesCard" style="text-align: center;">
+                        <img src="img/comprobado.png" class="img-fluid rounded-start imageCard" alt="...">
+                    </div>
+                    <div class="col-md-8" style="padding-left: 0;">
+                        <div class="card-body">
+                            <h5 class="card-title">Miembro Activo</h5>
+                            <p class="card-text">
+                                ● Colegio Mexicano de Cirugía para la Obesidad y Enfermedades
+                                Metabólicas Relacionadas (CMCOEM). <br>
+                                ● International Federation for the Surgery of Obesity (IFSO). <br>
+                                ● Asociación Mexicana de Cirugía General (AMCG). <br>
+                                ● Fellow of the American College of Surgeons (FACS).
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -262,13 +244,11 @@
                     </p>
 
                     <div class="row justify-content-between">
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center"
-                            data-scroll-reveal="enter from the left after 0.2s">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
                             <img src="img/manga.png" alt="Manga Gastrica" class="imgService" />
                         </div>
 
-                        <div class="col-lg-6 col-md-5 col-sm-5 text-center"
-                            data-scroll-reveal="enter from the bottom after 0.4s">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
                             <img src="img/bypass.png" alt="Bypass Gastrico" class="imgService" />
                         </div>
                     </div>
@@ -284,8 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part"
-                    data-scroll-reveal="enter from the right after 0.2s">
+                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
                     <p style="color:white;">
                         En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al
                         35.6 %
@@ -329,6 +308,46 @@
     </section>
     <!--TESTIMONY SECTION END-->
 
+    <section class="modality-sec" id="modality">
+        <div class="overlay">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                        <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                            <strong>
+                                ¿Quieres cambiar tu vida?
+                            </strong>
+                        </h3>
+                    </div>
+                </div>
+                <div class="row modality-info">
+                    <div class="col-lg-8 col-md-6 col-sm-6">
+                        <p>
+                            Da el primer paso a una mejor vida, cuento con dos modalidades para atenderte:
+                        </p>
+                        <ul>
+                            <li>Presencial: En mi consultorio ubicado en Guadalajara, Jal. México</li>
+                            <li> Virtual: Previa cita, mediante diversas plataformas en vivo.</li>
+                        </ul>
+                        <p>
+                            Agenda tu primera cita y juntos encontraremos el mejor camino para dar por terminado
+                            tu problema de obesidad.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 text-center" data-scroll-reveal="enter from the right after 0.2s" style="padding: 0;">
+                        <img src="img/consultorio.jpg" alt="Consultorio médico" class="officeImg">
+                    </div>
+                </div>
+                <div class="row text-center" style="margin-bottom: 2rem;">
+                    <a type="button" class="btn btn-lg" role="button" href="https://wa.me/message/WAPMS4TQVKPWD1" target="_blank" style="background-color: #216ba8; color: white;">
+                        Agendar Cita
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--MODALITY SECTION END-->
+
     <section class="questions" id="question">
         <div class="container">
             <div class="row text-center">
@@ -353,7 +372,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            CONTÁCTAME
+                            Contáctame
                         </strong>
                     </h3>
                 </div>
@@ -361,24 +380,32 @@
 
             <div class="row contact">
                 <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the left after 0.4s">
-                    <h5>DIRECCIÓN</h5>
+                    <h5>Dirección</h5>
                     <p>
                         C. Quebec #631,<br>Prados Providencia, C.P. 44670<br>Guadalajara, Jal.
                     </p>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-12" data-scroll-reveal="enter from the left after 0.4s">
-                    <h5>SIGUEME</h5>
+                    <h5>Sigueme</h5>
                     <div class="redes">
-                        <a class="nav-link" href="https://www.facebook.com/drstefanosereno" target="_blank"><i
-                                class="fa fa-facebook-square"></i></a>
-                        <a class="nav-link" href="https://www.instagram.com/drstefanosereno/" style="margin-left: 16px;"
-                            target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="nav-link" href="https://www.facebook.com/drstefanosereno" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                        <a class="nav-link" href="https://www.instagram.com/drstefanosereno/" style="margin-left: 16px;" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
-                    <!-- <div class="redes">
-                        <a href="mailto:ssereno@gmail.com"><span class="email"><i class="fa fa-envelope"
-                                    aria-hidden="true"></i><div>ssereno@gmail.com</div></span></a>
-                    </div> -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-6">
+                        <a href="mailto:ssereno@gmail.com">
+                            <span class="email"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span style="color: black;">ssereno@gmail.com</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="https://wa.me/message/WAPMS4TQVKPWD1"><i class="fa fa-phone" style="color: #57a3d9;"></i>
+                            <span style="color: black;">331 260 0584</span>
+                        </a>
+                    </div>
 
                 </div>
 
@@ -394,10 +421,7 @@
                 </div> -->
             </div>
             <div class="row">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.273881289898!2d-103.38975497218478!3d20.68796992153223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae423850e7dd%3A0xe88e0d6d418e0f31!2sC.%20Quebec%20631%2C%20Prados%20Providencia%2C%2044670%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1694120509690!5m2!1ses-419!2smx"
-                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.273881289898!2d-103.38975497218478!3d20.68796992153223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae423850e7dd%3A0xe88e0d6d418e0f31!2sC.%20Quebec%20631%2C%20Prados%20Providencia%2C%2044670%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1694120509690!5m2!1ses-419!2smx" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
@@ -447,7 +471,6 @@
         <i class="fa fa-whatsapp" aria-hidden="true"></i>
     </a>
 
-
     <!--  Jquery Core Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--  Core Bootstrap Script -->
@@ -462,7 +485,7 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/carousel.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             var $carousel = $('.carousel');
             var $items = $('.carousel-item');
             var totalItems = $items.length;
@@ -490,11 +513,11 @@
             updateCarousel();
 
             // Handle window resize to update the carousel
-            $(window).resize(function () {
+            $(window).resize(function() {
                 updateCarousel();
             });
 
-            $('.next').click(function () {
+            $('.next').click(function() {
                 var itemsVisible = calculateItemsVisible();
                 if (currentPosition < totalItems - itemsVisible) {
                     currentPosition += 1;
@@ -504,7 +527,7 @@
                 $carousel.css('transform', 'translateX(' + -currentPosition * $items.outerWidth(true) + 'px)');
             });
 
-            $('.prev').click(function () {
+            $('.prev').click(function() {
                 var itemsVisible = calculateItemsVisible();
                 if (currentPosition > 0) {
                     currentPosition -= 1;
