@@ -124,6 +124,18 @@ li {
 }
 
 /*=====================================
+  MESSAGE STYLES 
+  ===================================*/
+.overplay-msg {
+  background-color: #91c2e8;
+}
+
+.container-msg {
+  background-color: #fff;
+  border: 3px solid #91c2e8;
+}
+
+/*=====================================
   ABOUT STYLES 
   ===================================*/
 .studies-certification {
@@ -154,6 +166,14 @@ li {
 
 .imgDr {
   max-width: 100%;
+}
+
+.imgColegio {
+  max-width: 39%;
+}
+
+.imgFACS {
+  max-width: 57%;
 }
 
 /*=====================================
@@ -193,7 +213,7 @@ li {
 }
 
 .imgService {
-  width: 75%;
+  width: 85%;
 }
 
 /*=====================================

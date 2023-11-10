@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -56,6 +55,25 @@
     </section>
     <!--HEADER SECTION END-->
 
+    <section class="message">
+        <div class="overplay overplay-msg">
+            <div class="container container-msg">
+                <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                    <strong>
+                        Llegó el momento de que venzas la obesidad para siempre
+                    </strong>
+                </h3>
+                <p>
+                    ¿Cuánto tiempo mas vas a seguir intentando bajar de peso sin lograrlo? Yo te ofrezco analizar tu
+                    caso junto con mi equipo multidisciplinario de expertos, para encontrar la causa primaria de tu
+                    problema y diseñar un tratamiento definitivo junto contigo, que muchas veces incluye una cirugía
+                    bariátrica.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--MESSAGE SECTION END-->
+
     <section class="about" id="about">
         <div class="container">
             <div class="row text-center">
@@ -71,7 +89,7 @@
             <div class="row ">
                 <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s">
                     <div class="media-body">
-                        <img src="img/aboutMe.jpg" alt="Dr. Stefano" class="imgDr">
+                        <img src="img/aboutMe.png" alt="Dr. Stefano" class="imgDr">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-8" data-scroll-reveal="enter from the left after 0.4s">
@@ -95,6 +113,15 @@
                             cotidianamente
                             colaboro para mejorar el acceso y las prácticas seguras en cirugía bariátrica.
                         </p>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the left after 0.2s">
+                            <img src="img/facs-certificado.jpg" alt="Certificado FACS" class="imgFACS" />
+                        </div>
+
+                        <div class="col-lg-6 col-md-5 col-sm-5 text-center" data-scroll-reveal="enter from the bottom after 0.4s">
+                            <img src="img/certificado-colegio-mexicano.png" alt="Certificado Colegio Mexicano" class="imgColegio" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -290,12 +317,16 @@
 
                     <h3 data-scroll-reveal="enter from the bottom after 0.1s">
                         <strong>
-                            Mis pacientes, testimonios de éxito
+                            Testimonios de éxito
                         </strong>
                     </h3>
+                    <h4 data-scroll-reveal="enter from the bottom after 0.1s" style="font-size: 25px;">
+                        <strong>
+                            Mis pacientes
+                        </strong>
+                    </h4>
 
                 </div>
-
             </div>
 
             <?php include './testimonials.php' ?>
