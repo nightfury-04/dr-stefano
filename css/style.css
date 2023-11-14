@@ -72,6 +72,13 @@ li {
   font-size: 18px;
 }
 
+.aviso {
+  background-color: #8ecddd;
+  padding: 5px 40px;
+  color: white;
+  font-size: 14px;
+}
+
 /*=====================================
   NAVBAR STYLES 
   ===================================*/
