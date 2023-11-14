@@ -256,8 +256,8 @@
                     </h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6  col-md-6 col-sm-6 services-one-part">
+            <div class="row container-services">
+                <div class="col-lg-6 col-md-6 col-sm-12 services-one-part">
                     <p>
                         Ofrezco un tratamiento definitivo para el control de la obesidad, mediante cirugía y un equipo
                         multidisciplinario que cuenta con medicina interna, nutrición, psicología y activación física
@@ -286,7 +286,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
+                <div class="col-lg-6 col-md-6 col-sm-12 services-two-part" data-scroll-reveal="enter from the right after 0.2s">
                     <p style="color:white;">
                         En nuestro país, el sobrepeso y la obesidad afectan a más del 75 % de las personas adultas, y al
                         35.6 %

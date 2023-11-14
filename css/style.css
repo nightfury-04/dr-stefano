@@ -102,7 +102,7 @@ li {
 .header-sec {
   padding-top: 10px;
   padding-bottom: 60px;
-  background: url(../img/banner.jpg) no-repeat;
+  background: url(../img/bannerDesktop.png) no-repeat;
   padding: 0;
   -webkit-background-size: cover;
   background-size: cover;
@@ -111,23 +111,23 @@ li {
 }
 
 @media (max-width: 768px) {
-    .header-sec {
-        background: url(../img/bannerMobile.jpg) no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-        /* background-attachment: fixed; */
-        background-position: center;
-    }
+  .header-sec {
+    background: url(../img/bannerMobile.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+  }
 }
 
 @media (max-width: 768px) {
-    .md-hidden {
-        display: none; 
-    }
+  .md-hidden {
+    display: none;
+  }
 }
 
 .header-sec .overlay {
-    /* min-height: calc(100vh - 51px); */
+  /* min-height: calc(100vh - 51px); */
   min-height: 660px;
 }
 .header-sec h2 {
@@ -208,6 +208,10 @@ li {
   SERVICES STYLES 
   ===================================*/
 
+.container-services {
+  display: flex;
+}
+
 .services p {
   color: #f2f8fd;
 }
@@ -222,7 +226,7 @@ li {
 }
 .services-two-part {
   background-color: #22668d;
-  padding: 50px 50px 62px 50px;
+  padding: 40px;
 }
 
 .imgService {
@@ -337,24 +341,24 @@ a[aria-expanded="false"] .fa-minus {
 }
 
 .floatingSA {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 112px;
-    right: 32px;
-    height: 64px;
-    width: 64px;
-    border-radius: 100%;
-    background-color: #3085c3;
-    color: white;
-    font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 112px;
+  right: 32px;
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  background-color: #3085c3;
+  color: white;
+  font-size: 32px;
 }
 
 .floatingSA svg {
-    color: white;
-    height: 48px;
-    width: 48px;
+  color: white;
+  height: 48px;
+  width: 48px;
 }
 
 .contact h5 {
@@ -374,25 +378,25 @@ a[aria-expanded="false"] .fa-minus {
 }
 
 ul.benefits-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 ul.benefits-list li::before {
-    content: "\f058";
-    font-family: 'FontAwesome';
-    margin-right: 8px;
-    color: #22668d;
+  content: "\f058";
+  font-family: "FontAwesome";
+  margin-right: 8px;
+  color: #22668d;
 }
 
 ul.benefits-list li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .benefits-image {
-    width: 100%;
+  width: 100%;
 }
-  
+
 /*=====================================
   RESPONSIVE STYLES 
   ===================================*/
@@ -426,39 +430,43 @@ ul.benefits-list li {
   .studies-certification {
     margin-top: 0;
   }
-}
 
-@media only screen and (max-width: 992px) {
-    .benefits-image{
-        margin-bottom: 50px;
+  .container-services {
+    flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .benefits-image {
+      margin-bottom: 50px;
     }
-}
+  }
 
-button.schedule {
+  button.schedule {
     padding: 4px 12px;
     outline: none;
     border: 0;
     border-radius: 5px;
     font-size: 17px;
     color: #3085c3;
-}
+  }
 
-.nav-schedule {
+  .nav-schedule {
     display: flex;
     align-items: center;
     height: 50px;
-}
+  }
 
-.aviso {
-  background-color: #8ecddd;
-  padding: 5px 40px;
-  color: white;
-  font-size: 14px;
-}
+  .aviso {
+    background-color: #8ecddd;
+    padding: 5px 40px;
+    color: white;
+    font-size: 14px;
+  }
 
-@media only screen and (max-width: 992px) {
-  .aviso span {
-    display: block;
-    text-align: center;
+  @media only screen and (max-width: 992px) {
+    .aviso span {
+      display: block;
+      text-align: center;
+    }
   }
 }
