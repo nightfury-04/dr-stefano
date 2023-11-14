@@ -43,7 +43,6 @@ h3 {
   text-align: center;
   font-weight: 900;
   font-size: 30px;
-  text-transform: capitalize;
   color: #22668d;
 }
 
@@ -108,7 +107,7 @@ li {
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 @media (max-width: 768px) {
@@ -116,8 +115,8 @@ li {
         background: url(../img/bannerMobile.jpg) no-repeat;
         -webkit-background-size: cover;
         background-size: cover;
-        background-attachment: fixed;
-        background-position: center;    
+        /* background-attachment: fixed; */
+        background-position: center;
     }
 }
 
@@ -139,13 +138,9 @@ li {
 /*=====================================
   MESSAGE STYLES 
   ===================================*/
-.overplay-msg {
-  background-color: #91c2e8;
-}
 
 .container-msg {
-  background-color: #fff;
-  border: 3px solid #91c2e8;
+  background: #91c2e8;
 }
 
 /*=====================================
@@ -181,12 +176,16 @@ li {
   max-width: 100%;
 }
 
-.imgColegio {
+.imgCCM {
   max-width: 39%;
 }
 
 .imgFACS {
   max-width: 57%;
+}
+
+.imgColegio {
+  max-width: 100%;
 }
 
 /*=====================================
