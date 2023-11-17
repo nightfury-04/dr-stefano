@@ -62,7 +62,7 @@
                     </strong>
                 </h3>
                 <p>
-                    ¿Cuánto tiempo mas vas a seguir intentando bajar de peso sin lograrlo? Yo te ofrezco analizar tu
+                    ¿Cuánto tiempo más vas a seguir intentando bajar de peso sin lograrlo? Yo te ofrezco analizar tu
                     caso junto con mi equipo multidisciplinario de expertos, para encontrar la causa primaria de tu
                     problema y diseñar un tratamiento definitivo junto contigo, que muchas veces incluye una cirugía
                     bariátrica.
@@ -148,6 +148,7 @@
                             <h5 class="card-title">Especialidad en Cirugía General</h5>
                             <p class="card-text">
                                 Centro Médico Nacional de Occidente (IMSS). <br>
+                                Universidad de Guadalajara. <br>
                                 Cédula de Especialidad: 4255473.
                             </p>
                         </div>
