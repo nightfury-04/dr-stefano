@@ -114,7 +114,7 @@ li {
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
